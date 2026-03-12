@@ -31,14 +31,14 @@ toggleGrid();
 
 
 // TODO 2 - Create Platforms
-createPlatform(300,600, 200,20);
-createPlatform(500,500,200,20);
-createPlatform(700,400,200,20);
-createPlatform(900,300,200,20);
-createPlatform(1100,400,200,20);
-createPlatform(1300,500,200,20);
-createPlatform(175, 250, 200,20);
-createPlatform(415, 324, 200,20);
+createPlatform(200,500, 200,20,"purple");
+createPlatform(600,700,200,20,"purple");
+createPlatform(600,300,200,20,"purple");
+createPlatform(1000,300,200,20,"purple");
+createPlatform(1300,400,200,20,"purple");
+createPlatform(300,500,200,20,"purple");
+createPlatform(175, 250, 200,20,"purple");
+createPlatform(415, 624, 200,20,"purple");
 
 
 
@@ -52,11 +52,11 @@ createCollectable('database', 475, 300, 0.5, 0.7);
 
 
 // TODO 4 - Create Cannons
-createCannon("top",850,2000);
-createCannon("left",480,2000);
-createCannon("right",320,2000);
+createCannon("top",850,1000);
+createCannon("left",250,1000);
+createCannon("right",320,1000);
 createCannon('bottom', 600, 1000);
-createCannon('right', 600, 1000);  
+createCannon('right', 650, 1000);  
 
 //////////////////////////////////
 // ONLY CHANGE ABOVE THIS POINT //
